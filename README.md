@@ -34,8 +34,8 @@ Program ini dikembangkan secara independen dan bersih (clean-room) untuk menduku
 
 1. Kloning repositori ini:
 ```bash
-git clone https://github.com/USERNAME/epson-resetter.git
-cd epson-resetter
+git clone https://github.com/zaydsuryamarthana/resetter-epson-l3110.git
+cd resetter-epson-l3110
 ```
 
 2. Pasang dependensi pustaka:
@@ -105,7 +105,3 @@ python3 -m unittest discover tests/unit
 - Tanggung Jawab Fisik Pengguna: Mereset nilai counter digital tidak membersihkan tinta cair fisik yang terserap pada bantalan spon di dalam printer. Pengguna bertanggung jawab penuh atas pemeriksaan dan penggantian fisik bantalan spon untuk mencegah kebocoran atau korsleting. Perangkat lunak ini disediakan apa adanya (AS IS) tanpa jaminan apa pun.
 
 ---
-
-## Lisensi
-
-Didistribusikan di bawah lisensi terbuka MIT License. Bebas digunakan, dipelajari, dan dikembangkan kembali.
