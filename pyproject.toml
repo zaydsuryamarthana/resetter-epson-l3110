@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epson-l3110-resetter"
+version = "1.0.0"
+description = "Modern, cross-platform maintenance utility and waste ink counter resetter for Epson EcoTank L3110"
+readme = "README.md"
+authors = [
+    { name = "Antigravity Engineering", email = "dev@openprinterlab.org" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+]
+dependencies = [
+    "PyQt6>=6.4.0",
+]
+
+[project.scripts]
+epson-resetter = "app.main:main"

@@ -1,0 +1,3 @@
+# Epson L3110 Resetter Dependencies
+# Cross-Platform GUI (either PyQt6 or PySide6 is supported)
+PyQt6>=6.4.0
